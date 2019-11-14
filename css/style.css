@@ -1,0 +1,287 @@
+body {
+    overflow-x: hidden;
+}
+
+.image-holder {
+    width: 100%;
+    height: 700px;
+    background-image: url(../pic/case.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.rgba-gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(black 70%, rgb(62, 62, 255) 70%);
+    opacity: 0.7;
+}
+
+.container-custom {
+    position: absolute;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.holder-search-job {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+form {
+    width: 90%;
+}
+
+header {
+    height: 100%;
+    position: relative;
+}
+
+.bottom-header {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+.row-custom {
+    width: 100%;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.h8 {
+    font-size: 0.6rem;
+}
+
+.table-job {
+    width: 100%;
+}
+
+.border-top {
+    border-top: 1px solid gray;
+}
+
+.img-holder-info {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fully {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #e2e2e2;
+}
+
+.carousel-indicators-custom li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+
+/*==================== 
+	Footer 
+====================== */
+
+
+/* Main Footer */
+
+footer .main-footer {
+    padding: 20px 0;
+    background: #252525;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+/* Footer Top */
+
+.footer-top {
+    background: #252525;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #222;
+}
+
+
+/* Footer transparent */
+
+footer.transparent .footer-top,
+footer.transparent .main-footer {
+    background: transparent;
+}
+
+footer.transparent .footer-copyright {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* Footer light */
+
+footer.light .footer-top {
+    background: #f9f9f9;
+}
+
+footer.light .main-footer {
+    background: #f9f9f9;
+}
+
+footer.light .footer-copyright {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+
+/* Footer 4 */
+
+.footer- .logo {
+    display: inline-block;
+}
+
+
+/*==================== 
+	Widgets 
+====================== */
+
+.widget {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.widget.widget-last {
+    margin-bottom: 0px;
+}
+
+.widget.no-box {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+.widget.subscribe p {
+    margin-bottom: 18px;
+}
+
+.widget-title {
+    margin-bottom: 20px;
+}
+
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+    color: #fff;
+}
+
+.public-img-holder-header,
+.public-img-holder-header-blue {
+    width: 100%;
+    height: 350px;
+    background-image: url(../pic/case.jpg);
+    background-size: 100% 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.public-img-holder-header-blue {
+    height: 220px;
+}
+
+.public-rgba-gradient,
+.public-rgba-gradient-blue {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.public-rgba-gradient-blue {
+    background-color: #3e3eff;
+    opacity: 0.8;
+}
+
+.border-none {
+    border: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.icon-size {
+    font-size: 6rem;
+}
+
+
+/* .back-color {
+    background-color: #ececec;
+} */
+
+#card-in-service .col-4 .card:hover {
+    margin-top: -20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.card-custom {
+    background-color: #f0f0f0;
+    transition: all 0.3s;
+    border: none;
+}
+
+.display-none {
+    display: none;
+}
