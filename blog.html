@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bs/css/bootstrap.css">
+    <link rel="stylesheet" href="./datatables/DataTables-1.10.20/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/paginate.css">
+    <link rel="stylesheet" href="./icon/style.css">
+    <link rel="stylesheet" href="./datatables/DataTables-1.10.20/css/jquery.dataTables.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="public-img-holder-header">
+        <div class="public-rgba-gradient"></div>
+        <div class="container container-custom">
+            <header>
+                <div class="row mt-4">
+                    <nav class="navbar navbar-expand-sm navbar-dark w-100">
+                        <a class="navbar-brand" href="./home.html">CAREERS</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./job.html">Job listings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./service.html">Services</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./blog.html">Blog</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-primary" role="button" id="contact-us-btn">Contact Us</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="holder-search-job mt-5">
+                    <div class="row">
+                        <p class="h2 text-white m-auto">Our Blog</p>
+                    </div>
+                    <div class="row mt-3">
+                        <p class="h6 text-muted m-auto">Find your dream jobs in our powerful career website template.</p>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <main id="main-content">
+        <div class="container py-4">
+            <div id="content-paginate"></div>
+        </div>
+    </main>
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget subscribe no-box">
+                            <h5 class="widget-title">careers<span></span></h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repellat? </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Quick Links<span></span></h5>
+                            <ul class="thumbnail-widget">
+                                <li>
+                                    <a href="#" class="text-primary">Get Started</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">Top Leaders</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">Success Stories</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">Event/Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">News</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">Lifestyle</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-primary">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Get Started<span></span></h5>
+                            <p>Get access to your full Training and Marketing Suite.</p>
+                            <button type="button" class="btn btn-primary">Register Now</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Contact Us<span></span></h5>
+                            <a href="mailto:info@domain.com" title="mail">info@domain.com</a>
+                            <div class="row mt-4 ml-0">
+                                <a href=" https://www.facebook.com/ " title="facebook " class="text-decoration-none ml-1"><span class="icon icon-facebook h2 pointer "><span class="path1 "></span><span class="path2 "></span></span></a>
+                                <a href="https://twitter.com/ " title="twitter " class="text-decoration-none ml-1"><span class="icon icon-twitter h2 pointer "><span class="path1 "></span><span class="path2 "></span><span class="path3 "></span></span>
+                                </a>
+                                <a href="https://www.instagram.com/ " title="instagram " class="text-decoration-none ml-1"><span class="icon icon-instagram h2 pointer "><span class="path1 "></span><span class="path2 "></span></span>
+                                </a>
+                                <a href="https://www.linkedin.com/ " title="linkedin " class="text-decoration-none ml-1"><span class="icon icon-linkedin h2 pointer "><span class="path1 "></span><span class="path2 "></span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script type="x/Handlebars " id="paginate">
+        <div class="row mt-4 items-container">
+            {{#each this}}
+            <div class="col-4 p-4 item item-visible">
+                <div class="card border-none w-100">
+                    <img src="{{img}}" class="card-img-top">
+                    <div class="card-body p-0">
+                        <p class="h5 text-right mt-2">{{title}}</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="text-primary h7">{{comments}}</a> &nbsp; &brvbar; &nbsp;
+                            <small class="text-secondary h7">{{posted}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="row w-100 justify-content-center">
+            <ul class="pagination-container"></ul>
+        </div>
+    </script>
+
+    <script type="x/Handlebars " id="contact-us">
+        <div class="container">
+            <div class="row px-4">
+                <div class="col-6 p-4">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstname">First Name</label>
+                                <input type="text" class="form-control" id="firstname">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lastname">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group">
+                            <label for="subjectt">Subject</label>
+                            <input type="text" class="form-control" id="subjectt">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write your notes or questions here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-6 p-4">
+                    <div class="row py-3 flex-column">
+                        <p class="h6 text-capitalize text-secondary">Address</p>
+                        <p class="h7 text-capitalize text-muted">203 fake st. mountain view, san francisco, california, usa</p>
+                    </div>
+                    <div class="row py-3 flex-column">
+                        <p class="h6 text-capitalize text-secondary">phone</p>
+                        <p class="h7 text-primary">+1 232 3235 324</p>
+                    </div>
+                    <div class="row py-3 flex-column">
+                        <p class="h6 text-capitalize text-secondary">email address</p>
+                        <p class="h7 text-primary">youremail@domain.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script src="./js/handlebars.js"></script>
+    <script src="./js/jQuery.js"></script>
+    <script src="./datatables/DataTables-1.10.20/js/jquery.dataTables.js"></script>
+    <script src="./bs/js/bootstrap.js"></script>
+    <script src="./js/jquery.jold.paginator.js"></script>
+    <script src="./js/blog.js"></script>
+
+</body>
+
+</html>
